@@ -31,9 +31,8 @@ class GeradorCpf {
         final int pPeso = 10;
         final int sPeso = 11;
 
-        int i;
 
-        for (i = 0; i < cpf.length - 2; ++i) {
+        for (int i = 0; i < cpf.length - 2; ++i) {
             cpf[i] = rand.nextInt(9);
         }
 

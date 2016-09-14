@@ -7,14 +7,17 @@ android {
         applicationId "com.tmendes.dadosd"
         minSdkVersion 17
         targetSdkVersion 24
-        versionCode 2
-        versionName '20160914_V2'
+        versionCode 3
+        versionName '20160914_V3'
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             proguardFile '/home/tmendes/Docs/devel/android/DadosD/app/proguard-rules.pro'
+            debuggable false
+            jniDebuggable false
+            renderscriptDebuggable false
         }
         debug {
             proguardFile '/home/tmendes/Docs/devel/android/DadosD/app/proguard-rules.pro'

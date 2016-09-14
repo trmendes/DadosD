@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="monster_murmuring">
+        <item>@string/monster_01</item>
+        <item>@string/monster_02</item>
+        <item>@string/monster_03</item>
+        <item>@string/monster_04</item>
+        <item>@string/monster_05</item>
+        <item>@string/monster_06</item>
+        <item>@string/monster_07</item>
+    </string-array>
+</resources>

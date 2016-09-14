@@ -23,4 +23,12 @@
     <string name="image" translatable="false">Image</string>
     <string name="build" translatable="false">Build %1$d</string>
 
+    <string name="monster_01">Ouch!</string>
+    <string name="monster_02">Pra que isso jovem?</string>
+    <string name="monster_03">Me deixa em paz!</string>
+    <string name="monster_04">Hey! Isso machuca!</string>
+    <string name="monster_05">Ta-Ta-Ta-Ta</string>
+    <string name="monster_06">Ahhhh....para com isso vai!</string>
+    <string name="monster_07">Sério? Vai ficar me cotucando mesmo?</string>
+
 </resources>

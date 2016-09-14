@@ -21,14 +21,18 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.Random;
 
 public class MainActivity extends Activity {
 
     private GeradorCpf cpf;
     private TextView tvCpf;
+    private String[] monsterMurmuring;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,17 @@ public class MainActivity extends Activity {
 
         tvCpf = (TextView) findViewById(R.id.txCpf);
 
+        monsterMurmuring = getResources().getStringArray(R.array.monster_murmuring);
+
+    }
+
+    @SuppressWarnings("unused")
+    public void murmuring(@SuppressWarnings("UnusedParameters") View v) {
+        Random rand = new Random();
+        int randPos = rand.nextInt(monsterMurmuring.length-1);
+        Toast tM = Toast.makeText(this, monsterMurmuring[randPos], Toast.LENGTH_SHORT);
+        tM.setGravity(Gravity.TOP|Gravity.CENTER, 0, 0);
+        tM.show();
     }
 
     @SuppressWarnings("unused")

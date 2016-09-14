@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DadosD</string>
+
+    <string name="text_btn_create">Gerar Dados</string>
+    <string name="text_btn_about">Sobre</string>
+
+    <string name="text_cpf_title">Cpf:</string>
+    <string name="text_cpf">111.111.111.111</string>
+
+    <string name="text_copy_info">Copiado: %1$s</string>
+
+    <string name="text_info">Este aplicativo é de uso exclusívo para desenvolvedores testarem suas plataformas</string>
+
+    <string name="about_title">© 2016/2016 DroidD</string>
+    <string name="about_info">O projeto DroidD é OpenSource e foi criado para que desenvolvedores possam gerar dados válidos para testarem suas plataformas durante a fase de debug de software</string>
+    <string name="about_help">Você pode nos ajudar :D</string>
+    <string name="about_developer"><a href="https://github.com/tribeirom/DadosD">Desnvolvedor ou Artista?</a></string>
+    <string name="about_issue"><a href="https://github.com/tribeirom/DadosD/issues">Encontrou algum erro ou tem alguma sugestão?</a></string>
+    <string name="about_developers_title">Desenvolvedores</string>
+    <string name="about_devel_name" translatable="false">Thiago Mendes</string>
+    <string name="about_os_cc_title" translatable="false">OpenSource / Creative Commons</string>
+    <string name="about_oc_cc_01"><a href="https://openclipart.org/detail/167774/monsternoshadow">Monster Icon provided by OpenClipArt (CC)</a></string>
+    <string name="image" translatable="false">Image</string>
+    <string name="build" translatable="false">Build %1$d</string>
+
+</resources>

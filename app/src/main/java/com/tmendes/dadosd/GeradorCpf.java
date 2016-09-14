@@ -63,13 +63,19 @@ class GeradorCpf {
 
         String sCpf = "";
 
-        int ponto = 0;
+        int ponto = 0, nPontos = 0;
 
         for (int aCpf : cpf) {
             sCpf += String.valueOf(aCpf);
             ++ponto;
             if (ponto == 3) {
-                sCpf += ".";
+                ++nPontos;
+                if (nPontos == 3) {
+                    sCpf += "-";
+                } else {
+                    sCpf += ".";
+                }
+
                 ponto = 0;
             }
         }

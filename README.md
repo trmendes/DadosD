@@ -8,6 +8,10 @@ DadosD é um aplicativo para Android com o objetivo de facilitar a sua vida como
 
   * Gerando número de CPF aleatório e copiando este para a área de transferência.
 
+#### Screenshots
+
+<img src="assets/images/main.png" width="30%">
+
 #### Links
 
 [![DadosD na PlayStore](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.tmendes.dadosd)
